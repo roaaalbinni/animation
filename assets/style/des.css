@@ -18,7 +18,7 @@ body {
     width: 360px;
     height: 530px;
     transform-style: preserve-3d;
-    transition: transform 8s ease-in-out;
+    transition: transform 4s ease-in-out;
     cursor: pointer;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2), -5px -5px 10px rgb(0, 0, 0, 0.05);
@@ -47,7 +47,7 @@ body {
 }
 
 .card-title {
-    font-style: 2rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ body {
     color: #fff;
     padding: 12px 24px;
     font-size: 1rem;
-    border: non;
+    border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
